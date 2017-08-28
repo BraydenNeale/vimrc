@@ -46,4 +46,4 @@ set softtabstop=4
 set expandtab
 
 "Quick fix for yml edits
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+autocmd FileType yaml setl ts=2 sts=2 sw=2 indentkeys-=<:> expandtab
